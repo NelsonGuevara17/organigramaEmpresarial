@@ -1,0 +1,41 @@
+p{
+  font-size: 12px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    position: relative;
+    height: 97vh; /* Altura completa de la ventana */
+    overflow: auto; /* Permitir el desplazamiento */
+    background-color: var(--celeste); /* Fondo celeste */
+}
+
+.scroll-container {
+    height: 100%; /* Usar toda la altura del contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.firstcontent {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--blanco); /* Fondo blanco para los nodos */
+    border: 1px solid var(--azul); /* Borde azul */
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para los nodos */
+}
+
+.font-bold p {
+    color: var(--azul); /* Texto en azul */
+    font-weight: bold;
+}
+
+
+

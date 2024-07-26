@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+/* :root {
+  --azul: #1d6dde;
+  --celeste: #99ddff;
+  --negro: #000000;
+  --blanco: #ffffff;
+} */
